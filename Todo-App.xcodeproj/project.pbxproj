@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		4966C49C1DCBE33200E8B03F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966C49B1DCBE33200E8B03F /* AppDelegate.swift */; };
-		4966C49E1DCBE33200E8B03F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966C49D1DCBE33200E8B03F /* ViewController.swift */; };
+		4966C49E1DCBE33200E8B03F /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966C49D1DCBE33200E8B03F /* TasksViewController.swift */; };
 		4966C4A11DCBE33200E8B03F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4966C49F1DCBE33200E8B03F /* Main.storyboard */; };
 		4966C4A41DCBE33200E8B03F /* Todo_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4966C4A21DCBE33200E8B03F /* Todo_App.xcdatamodeld */; };
 		4966C4A61DCBE33200E8B03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4966C4A51DCBE33200E8B03F /* Assets.xcassets */; };
 		4966C4A91DCBE33200E8B03F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4966C4A71DCBE33200E8B03F /* LaunchScreen.storyboard */; };
+		4966C4B31DCBED4300E8B03F /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966C4B21DCBED4300E8B03F /* CreateTaskViewController.swift */; };
+		497EDB7A1DCC1CCB00F97B76 /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497EDB791DCC1CCB00F97B76 /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4966C4981DCBE33200E8B03F /* Todo-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4966C49B1DCBE33200E8B03F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4966C49D1DCBE33200E8B03F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4966C49D1DCBE33200E8B03F /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		4966C4A01DCBE33200E8B03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4966C4A31DCBE33200E8B03F /* Todo_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Todo_App.xcdatamodel; sourceTree = "<group>"; };
 		4966C4A51DCBE33200E8B03F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4966C4A81DCBE33200E8B03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4966C4AA1DCBE33200E8B03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4966C4B21DCBED4300E8B03F /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateTaskViewController.swift; path = Assets.xcassets/CreateTaskViewController.swift; sourceTree = "<group>"; };
+		497EDB791DCC1CCB00F97B76 /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompleteTaskViewController.swift; path = Assets.xcassets/CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				4966C49B1DCBE33200E8B03F /* AppDelegate.swift */,
-				4966C49D1DCBE33200E8B03F /* ViewController.swift */,
+				4966C49D1DCBE33200E8B03F /* TasksViewController.swift */,
+				497EDB791DCC1CCB00F97B76 /* CompleteTaskViewController.swift */,
+				4966C4B21DCBED4300E8B03F /* CreateTaskViewController.swift */,
 				4966C49F1DCBE33200E8B03F /* Main.storyboard */,
 				4966C4A51DCBE33200E8B03F /* Assets.xcassets */,
 				4966C4A71DCBE33200E8B03F /* LaunchScreen.storyboard */,
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4966C49E1DCBE33200E8B03F /* ViewController.swift in Sources */,
+				4966C49E1DCBE33200E8B03F /* TasksViewController.swift in Sources */,
+				497EDB7A1DCC1CCB00F97B76 /* CompleteTaskViewController.swift in Sources */,
 				4966C49C1DCBE33200E8B03F /* AppDelegate.swift in Sources */,
 				4966C4A41DCBE33200E8B03F /* Todo_App.xcdatamodeld in Sources */,
+				4966C4B31DCBED4300E8B03F /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +314,7 @@
 				4966C4AF1DCBE33200E8B03F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
